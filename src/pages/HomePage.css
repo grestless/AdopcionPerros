@@ -1,0 +1,48 @@
+/* HomePage.css */
+
+.home-page {
+    padding: 50px;
+    text-align: center;
+}
+
+.home-page h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.home-page p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about,
+.adoption-process,
+.contact {
+    margin-top: 40px;
+}
+
+.about h2,
+.adoption-process h2,
+.contact h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.about p,
+.adoption-process p,
+.contact p {
+    font-size: 16px;
+    color: #666;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}

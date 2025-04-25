@@ -4,10 +4,10 @@ Aplicación web para facilitar la adopción responsable de perros. Permite a los
 
 ## 🚀 Tecnologías
 
-- ⚛️ React
-- 💅 CSS Modules / Tailwind 
-- 🐶 Create React App
-- 📦 Node.js + npm
+- React
+- CSS Modules / Tailwind 
+- Create React App
+- Node.js + npm
 
 ## 🎯 Funcionalidades
 

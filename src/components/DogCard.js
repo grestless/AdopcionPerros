@@ -11,13 +11,19 @@ const DogCard = ({ dog, onAdopted }) => {
 
   return (
     <div className="dog-card">
-      <img src={dog.image} alt={dog.name} />
-      <h3>{dog.name}</h3>
-      <p>Edad: {dog.age}</p>
+      <img src={dog.img} alt={dog.nombre} />
+      <h3>{dog.nombre}</h3>
+      <p>Edad: {dog.edad} años</p>
+      <p>Raza: {dog.raza}</p>
+      <p>Tamaño: {dog.tamaño}</p>
+      <p>Vacunado: {dog.vacunado ? 'Sí' : 'No'}</p>
+      <p>Desparasitado: {dog.desparasitado ? 'Sí' : 'No'}</p>
+      <p>Descripción: {dog.descripcion}</p>
       <button onClick={toggleForm}>Adoptar</button>
       {showForm && <AdoptionForm dog={dog} onAdopted={onAdopted} />}
     </div>
   );
 };
+
 
 export default DogCard;

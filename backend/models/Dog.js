@@ -1,12 +1,15 @@
-// models/Dog.js
-
 const mongoose = require('mongoose');
 
 const dogSchema = new mongoose.Schema({
-    name: { type: String, required: true },
-    breed: { type: String, required: true },
-    age: { type: Number, required: true },
-    adopted: { type: Boolean, default: false }
+    nombre: { type: String, required: true },
+    edad: { type: Number, required: true },
+    raza: { type: String, required: true },
+    tamaño: { type: String, required: true },
+    vacunado: { type: Boolean, required: true },
+    desparasitado: { type: Boolean, required: true },
+    descripcion: { type: String, required: true },
+    img: { type: String, required: true }
 });
 
-module.exports = mongoose.model('Dog', dogSchema);
+const Dog = mongoose.model('Dog', dogSchema);
+module.exports = Dog;
